@@ -1,0 +1,9 @@
+git clone https://github.com/your-username/ai-stock-simulator.git
+cd ai-stock-simulator
+
+python -m venv venv
+venv\Scripts\activate   # For Windows
+
+pip install -r requirements.txt
+
+streamlit run app.py
